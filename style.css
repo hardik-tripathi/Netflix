@@ -209,7 +209,7 @@ footer {
   padding: 14px;
 }
 
-footer p {
+footer .para {
   padding: 34px 0;
 }
 
@@ -350,10 +350,19 @@ section.first.second div span{
   margin-top: 10px;
 }
 
+/* @media screen and (max-width: 425) {
+
+
+footer{
+    max-width: 86vw;
+  }
+
+} */
+
 @media screen and (max-width: 1300px) {
 
   footer{
-    max-width: 70vw;
+    max-width: 700px;
   }
 
   .footer {
@@ -376,7 +385,9 @@ section.first.second div span{
     margin-top: 0;
   }
 
-  footer p{
-    margin-left: 12px;
+  footer .para{
+    text-align: center;
   }
 }
+
+
